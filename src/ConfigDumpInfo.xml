@@ -1,7 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.16">
 	<ConfigVersions>
-		<Metadata name="Configuration.Конфигурация" id="3e9b5274-733d-4c7a-a594-4745259664b8" configVersion="86f7810d8014b7418d9142bc88a5d56e00000000"/>
-		<Metadata name="Language.Русский" id="0cf3d43d-3475-431c-a098-5d2ddcc34b03" configVersion="4de760453f53d7499dcdaa45fe0ece4b00000000"/>
+		<Metadata name="Catalog.Страны" id="06a8d231-3b23-4c9d-a4a0-1d48b90bac3f" configVersion="e4bd7ef6a78964469088b7b0edc4399e00000000">
+			<Metadata name="Catalog.Страны.Attribute.ПолноеНаименование" id="3645fdd6-938c-4403-a63f-8148a0425b70"/>
+			<Metadata name="Catalog.Страны.Attribute.Альфа2" id="91920d84-e9f2-401f-97fa-09d35cd9ea5b"/>
+			<Metadata name="Catalog.Страны.Attribute.Альфа3" id="9b558e0c-42b5-431b-a275-025d33e6d86a"/>
+		</Metadata>
+		<Metadata name="Catalog.Страны.Predefined" id="06a8d231-3b23-4c9d-a4a0-1d48b90bac3f.1c" configVersion="deabfb8233041a4cb9ed74d24851350a00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="3e9b5274-733d-4c7a-a594-4745259664b8" configVersion="8ed18e881bfac94db905984d3ae7a56a00000000"/>
+		<Metadata name="Language.Русский" id="0cf3d43d-3475-431c-a098-5d2ddcc34b03" configVersion="4851f8686290b44c96e891becc8c063c00000000"/>
+		<Metadata name="Subsystem.Продажи" id="46e0c067-cfa0-4987-83f4-06a2f039b65b" configVersion="c08b88955f1fbd48922c471ff08eb5f200000000"/>
+		<Metadata name="Subsystem.УчетКниг" id="53b7d642-cce2-4000-87d0-c0e5b5de1481" configVersion="b5f6d30e56b88749aa566093f094c53800000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
