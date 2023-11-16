@@ -224,6 +224,9 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>Продажи</Subsystem>
+			<Subsystem>УчетКниг</Subsystem>
+			<Catalog>Страны</Catalog>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
