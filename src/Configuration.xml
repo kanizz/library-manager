@@ -227,6 +227,19 @@
 			<Subsystem>УчётКниг</Subsystem>
 			<Subsystem>Продажи</Subsystem>
 			<Catalog>Страны</Catalog>
+			<Catalog>Книги</Catalog>
+			<Catalog>СпособыПечати</Catalog>
+			<Catalog>РазмерыКниг</Catalog>
+			<Catalog>ТипыБумаг</Catalog>
+			<Catalog>ЦветностиКниг</Catalog>
+			<Catalog>ТипыОбложек</Catalog>
+			<Catalog>ТипыКорешков</Catalog>
+			<Catalog>ТипыФорзацев</Catalog>
+			<Catalog>ТипыТиражей</Catalog>
+			<Catalog>ТипыИзношенностей</Catalog>
+			<Catalog>Жанры</Catalog>
+			<Catalog>Языки</Catalog>
+			<Catalog>Файлы</Catalog>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

@@ -17,6 +17,19 @@
 			<Picture/>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Страны</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Книги</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СпособыПечати</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.РазмерыКниг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ЦветностиКниг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТипыБумаг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТипыКорешков</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТипыФорзацев</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТипыОбложек</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТипыТиражей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТипыИзношенностей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Жанры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Языки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Файлы</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
