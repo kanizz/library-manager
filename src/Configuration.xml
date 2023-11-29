@@ -206,7 +206,7 @@
 			<MobileApplicationURLs/>
 			<MainClientApplicationWindowMode>Normal</MainClientApplicationWindowMode>
 			<DefaultInterface/>
-			<DefaultStyle/>
+			<DefaultStyle>Style.Стиль</DefaultStyle>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -226,6 +226,7 @@
 			<Language>Русский</Language>
 			<Subsystem>УчётКниг</Subsystem>
 			<Subsystem>Продажи</Subsystem>
+			<Style>Стиль</Style>
 			<Catalog>Страны</Catalog>
 			<Catalog>Книги</Catalog>
 			<Catalog>СпособыПечати</Catalog>
@@ -240,6 +241,8 @@
 			<Catalog>Жанры</Catalog>
 			<Catalog>Языки</Catalog>
 			<Catalog>Файлы</Catalog>
+			<Catalog>Владельцы</Catalog>
+			<Report>БиблиотечныйОтчет</Report>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
