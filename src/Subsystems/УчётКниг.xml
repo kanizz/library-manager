@@ -30,6 +30,9 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Жанры</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Языки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Файлы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Владельцы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.БиблиотечныйОтчет</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">e2a8c432-11cd-4857-a1f1-49552fda8c10</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
