@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.16">
 	<ConfigVersions>
-		<Metadata name="Catalog.Владельцы" id="04193432-f6b5-4718-a2e6-7415b66f3658" configVersion="39fe99d4dcb5514f9c65643d620a7f5800000000">
+		<Metadata name="Catalog.Владельцы" id="04193432-f6b5-4718-a2e6-7415b66f3658" configVersion="84620605153baa4287d9cc74e0e8524200000000">
 			<Metadata name="Catalog.Владельцы.Attribute.Имя" id="56007646-5069-44cd-8893-dfedd60fdeb6"/>
 			<Metadata name="Catalog.Владельцы.Attribute.Отчество" id="d489505e-32f7-4e3e-a916-7e139e9b0833"/>
 			<Metadata name="Catalog.Владельцы.Attribute.Фамилия" id="f6e21e88-886c-45cb-82c0-5cd5b5717dad"/>
 		</Metadata>
-		<Metadata name="Catalog.Владельцы.Form.ФормаСписка" id="ae279f5e-7ae2-43ed-9c6c-6272545ace90" configVersion="6892cb92be3a45498b77d83af61a673500000000"/>
-		<Metadata name="Catalog.Владельцы.Form.ФормаСписка.Form" id="ae279f5e-7ae2-43ed-9c6c-6272545ace90.0" configVersion="ffd382e2b988db439fb792d198cf5af900000000"/>
-		<Metadata name="Catalog.Жанры" id="5bc77297-17c1-4755-815d-f46d2b79cc81" configVersion="4dcd09cd537dcc4fb63d8cf75e9504a300000000"/>
-		<Metadata name="Catalog.Книги" id="0b5309b4-5d57-400b-ae32-9ada724361be" configVersion="b852c6296a9b72499e3839cdfe9f7ee100000000">
+		<Metadata name="Catalog.Владельцы.Form.ФормаСписка" id="ae279f5e-7ae2-43ed-9c6c-6272545ace90" configVersion="036c3fd50742ad4bb46fdf65e0d6ffca00000000"/>
+		<Metadata name="Catalog.Владельцы.Form.ФормаСписка.Form" id="ae279f5e-7ae2-43ed-9c6c-6272545ace90.0" configVersion="43b46991ee07b043bf75519d263c2a5c00000000"/>
+		<Metadata name="Catalog.Жанры" id="5bc77297-17c1-4755-815d-f46d2b79cc81" configVersion="e32798948cf91f4bb6dea3a45938d6da00000000"/>
+		<Metadata name="Catalog.Книги" id="0b5309b4-5d57-400b-ae32-9ada724361be" configVersion="962cbc7c65859949be24b758c1324fbb00000000">
 			<Metadata name="Catalog.Книги.Attribute.КоличествоСтраниц" id="05fa8d3e-83f6-4a70-b2af-02f8f6ddbe5b"/>
 			<Metadata name="Catalog.Книги.Attribute.Издание" id="10b6bfe0-4249-412a-ba01-c3b52c159f46"/>
 			<Metadata name="Catalog.Книги.Attribute.Шрифт" id="138caf78-e60a-49a8-a5fd-4934c1a2fb0d"/>
@@ -38,36 +38,38 @@
 			<Metadata name="Catalog.Книги.TabularSection.Сканы" id="cb710d96-ef51-4d4c-9499-4a9b3595c3b3"/>
 			<Metadata name="Catalog.Книги.Attribute.КоличествоПолос" id="e25a9082-641a-4193-badf-1a87e6eabf23"/>
 		</Metadata>
-		<Metadata name="Catalog.Книги.Form.ФормаЭлемента" id="a2eba214-8a7c-416b-8d41-1b43f2393e16" configVersion="b89cb5989ea98a4c89f9a54c6610523a00000000"/>
-		<Metadata name="Catalog.Книги.Form.ФормаЭлемента.Form" id="a2eba214-8a7c-416b-8d41-1b43f2393e16.0" configVersion="df743e5be2dbc34f89a8d05dc8b2f26900000000"/>
-		<Metadata name="Catalog.РазмерыКниг" id="ea4aed03-cb46-4b27-b1e0-24fc1c039857" configVersion="0e6e95194518cb409a3cf24fed68feed00000000"/>
-		<Metadata name="Catalog.СпособыПечати" id="fc418dc4-c201-49f4-b936-e8b9fd659846" configVersion="606c4f034bb55e49a88d845c1b223d0800000000"/>
-		<Metadata name="Catalog.Страны" id="0c5a7d2a-556f-4ef5-ad37-4d5a353ac015" configVersion="a2bcd1b387154341a8b74498d8fd4b6f00000000">
+		<Metadata name="Catalog.Книги.Form.ФормаЭлемента" id="a2eba214-8a7c-416b-8d41-1b43f2393e16" configVersion="ee4250959a3a3c4982de9d60e27dda8d00000000"/>
+		<Metadata name="Catalog.Книги.Form.ФормаЭлемента.Form" id="a2eba214-8a7c-416b-8d41-1b43f2393e16.0" configVersion="b013920e944c7246b0852c6733fbeff700000000"/>
+		<Metadata name="Catalog.РазмерыКниг" id="ea4aed03-cb46-4b27-b1e0-24fc1c039857" configVersion="d4ed9881a585f34397b5a2f3fe330cb700000000"/>
+		<Metadata name="Catalog.СпособыПечати" id="fc418dc4-c201-49f4-b936-e8b9fd659846" configVersion="50f3b377feeb264090fc1bc95177c18200000000"/>
+		<Metadata name="Catalog.Страны" id="0c5a7d2a-556f-4ef5-ad37-4d5a353ac015" configVersion="9c1006cd5aed034eae97fad345baafee00000000">
 			<Metadata name="Catalog.Страны.Attribute.Альфа2" id="119f5406-6227-4f6b-9be0-43c969659a6e"/>
 			<Metadata name="Catalog.Страны.Attribute.Альфа3" id="20ef94a3-014f-4f6e-996e-9c3fc1574f4e"/>
 			<Metadata name="Catalog.Страны.Attribute.ПолноеНаименование" id="649f1177-60c5-4823-ab95-dd74f40c422b"/>
 		</Metadata>
-		<Metadata name="Catalog.ТипыБумаг" id="9dda23c2-93f6-40d3-9b41-adf9c25c7572" configVersion="ef60bb2c3af6ca4298c67f4f5da63a9c00000000"/>
-		<Metadata name="Catalog.ТипыИзношенностей" id="34069b52-b907-4aed-a8aa-917d00fcd6cd" configVersion="6c224adeb5ccc54bb802bbf14e6fee2700000000"/>
-		<Metadata name="Catalog.ТипыКорешков" id="1bda6721-4c22-4293-9edf-907f78125bf7" configVersion="56161bd5e45db9458bd6d1a5fa9b9b2000000000"/>
-		<Metadata name="Catalog.ТипыОбложек" id="8a8bfa43-a543-47ce-b8d5-1eec03ff1070" configVersion="19c6e5b4c6c42f44807ed0bd6f5437a700000000"/>
-		<Metadata name="Catalog.ТипыТиражей" id="216368d4-a0fb-4522-9003-01df0759d9f7" configVersion="986e0041607f834cbe3f0249742d2db000000000"/>
-		<Metadata name="Catalog.ТипыФорзацев" id="56bd8e74-521c-46f4-802e-456e83cb2adf" configVersion="f79972dbeec91b4bb2ca752563ba1f9d00000000"/>
-		<Metadata name="Catalog.Файлы" id="285c8ec5-bde9-40de-9688-a7e6880a690c" configVersion="0c741b7f3f62af4ea0b77af1af08794900000000">
+		<Metadata name="Catalog.ТипыБумаг" id="9dda23c2-93f6-40d3-9b41-adf9c25c7572" configVersion="997ddb13a21abc41bbcf4afb3794721f00000000"/>
+		<Metadata name="Catalog.ТипыИзношенностей" id="34069b52-b907-4aed-a8aa-917d00fcd6cd" configVersion="88a606a452a2dd45ab5dbe241092e61200000000"/>
+		<Metadata name="Catalog.ТипыКорешков" id="1bda6721-4c22-4293-9edf-907f78125bf7" configVersion="028fc0bff01cd04e8b7e1fea3879617300000000"/>
+		<Metadata name="Catalog.ТипыОбложек" id="8a8bfa43-a543-47ce-b8d5-1eec03ff1070" configVersion="c5ee001720395c49bfedb04c9321270f00000000"/>
+		<Metadata name="Catalog.ТипыТиражей" id="216368d4-a0fb-4522-9003-01df0759d9f7" configVersion="d40914c65ebf7648bc410441d7138dd500000000"/>
+		<Metadata name="Catalog.ТипыФорзацев" id="56bd8e74-521c-46f4-802e-456e83cb2adf" configVersion="5c2e5e6c5425b843921d83e91818593600000000"/>
+		<Metadata name="Catalog.Файлы" id="285c8ec5-bde9-40de-9688-a7e6880a690c" configVersion="a1e649215f06a3448816736653217f9700000000">
 			<Metadata name="Catalog.Файлы.Attribute.Данные" id="0d8c50b6-a228-4741-8b6f-113a7d698bdf"/>
 		</Metadata>
-		<Metadata name="Catalog.ЦветностиКниг" id="632fcba9-1e62-41a0-839f-a59c13dff9af" configVersion="f4c30ce5ed846d4a946494dfedd4f71c00000000"/>
-		<Metadata name="Catalog.Языки" id="555d96a8-d47c-400d-8162-54636fab24ee" configVersion="b3226da0d3adc444853a7ee219d0aa6200000000">
+		<Metadata name="Catalog.Файлы.Form.ФормаЭлемента" id="1c640723-9a01-42db-811e-8c3609797303" configVersion="27e5aab377315a4893589ab25acd791d00000000"/>
+		<Metadata name="Catalog.Файлы.Form.ФормаЭлемента.Form" id="1c640723-9a01-42db-811e-8c3609797303.0" configVersion="1a10d21959d4fa4da84b391b2407a3d900000000"/>
+		<Metadata name="Catalog.ЦветностиКниг" id="632fcba9-1e62-41a0-839f-a59c13dff9af" configVersion="dd1b568b4638bb41b48117b1fbf833de00000000"/>
+		<Metadata name="Catalog.Языки" id="555d96a8-d47c-400d-8162-54636fab24ee" configVersion="26a1e2d99224c04f903a1376a6d5f93c00000000">
 			<Metadata name="Catalog.Языки.Attribute.СокращённыйКод" id="881faf08-b691-457e-8f8f-a0c861a79dc1"/>
 		</Metadata>
-		<Metadata name="Configuration.Конфигурация" id="73079df1-643d-4f20-9fa7-344804a886f4" configVersion="e7c2ef177773f348911698b1d47c957500000000"/>
-		<Metadata name="Language.Русский" id="f9844b24-b389-49e6-8c74-84036f4406d9" configVersion="50950595f3021f42aaa2035a41d19f2200000000"/>
-		<Metadata name="Report.БиблиотечныйОтчет" id="15e43218-af44-41e7-a42e-125b6ba184cc" configVersion="ed61cc8228fda24682128d28112cce4f00000000"/>
-		<Metadata name="Report.БиблиотечныйОтчет.Template.ОсновнаяСхемаКомпоновкиДанных" id="991c9056-618e-4a07-b61a-08f6d1320a71" configVersion="a4f3f973cd113845b2b8c7fde23d180700000000"/>
-		<Metadata name="Report.БиблиотечныйОтчет.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="991c9056-618e-4a07-b61a-08f6d1320a71.0" configVersion="ec639851a01db545b591cc102ee5518500000000"/>
-		<Metadata name="Style.Стиль" id="68dc30ab-df72-4c70-98c8-7cdc6130e03e" configVersion="ff2f388e10c0f44daa7f60a100cc032100000000"/>
-		<Metadata name="Style.Стиль.Style" id="68dc30ab-df72-4c70-98c8-7cdc6130e03e.0" configVersion="7d7844cab483624ca4efb7723fcb127f00000000"/>
-		<Metadata name="Subsystem.Продажи" id="429cac56-bbec-4e96-b670-beb8b9a03f7f" configVersion="5c329eb208cd494fa67de9aae010e55300000000"/>
-		<Metadata name="Subsystem.УчётКниг" id="c5efccc8-3ef6-4440-9c54-48e85d1bda73" configVersion="b868a169dc70404e962e5e2d2d5237e200000000"/>
+		<Metadata name="Configuration.Конфигурация" id="73079df1-643d-4f20-9fa7-344804a886f4" configVersion="bfccc4ee390baa45bfcbc6b7cbb374bf00000000"/>
+		<Metadata name="Language.Русский" id="f9844b24-b389-49e6-8c74-84036f4406d9" configVersion="4f15af730b8e714aa2f7f61a4a4b98e700000000"/>
+		<Metadata name="Report.БиблиотечныйОтчет" id="15e43218-af44-41e7-a42e-125b6ba184cc" configVersion="62d20345897ef842a37a82e45f568f0000000000"/>
+		<Metadata name="Report.БиблиотечныйОтчет.Template.ОсновнаяСхемаКомпоновкиДанных" id="991c9056-618e-4a07-b61a-08f6d1320a71" configVersion="a658009221ba514fbf8c34d949f9490b00000000"/>
+		<Metadata name="Report.БиблиотечныйОтчет.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="991c9056-618e-4a07-b61a-08f6d1320a71.0" configVersion="b41be9823d1ac743907a9ff7cf7c57d300000000"/>
+		<Metadata name="Style.Стиль" id="68dc30ab-df72-4c70-98c8-7cdc6130e03e" configVersion="2cb8fce8bba4c140b948c281960bff8700000000"/>
+		<Metadata name="Style.Стиль.Style" id="68dc30ab-df72-4c70-98c8-7cdc6130e03e.0" configVersion="196e5e495451df41a58a4910ffd6785600000000"/>
+		<Metadata name="Subsystem.Продажи" id="429cac56-bbec-4e96-b670-beb8b9a03f7f" configVersion="425898608317b8478b542db247636b2200000000"/>
+		<Metadata name="Subsystem.УчётКниг" id="c5efccc8-3ef6-4440-9c54-48e85d1bda73" configVersion="01ad2cb0787c8e47b49fedbc454b77fd00000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
