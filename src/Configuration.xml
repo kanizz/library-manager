@@ -227,6 +227,10 @@
 			<Style>Стиль1</Style>
 			<Catalog>Файлы</Catalog>
 			<Catalog>Книга</Catalog>
+			<Document>ПеремещениеКниги</Document>
+			<Document>ПродажаКниги</Document>
+			<InformationRegister>ПредыдущиеВладельцы</InformationRegister>
+			<InformationRegister>РасположениеКниг</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
