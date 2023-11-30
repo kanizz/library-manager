@@ -30,7 +30,32 @@
 		</Metadata>
 		<Metadata name="Catalog.Файлы.Form.ФормаСписка" id="5224848c-ce7c-47ba-9ef2-cd242898fa4b" configVersion="15d77568579c77469e0a876f3da25fdd00000000"/>
 		<Metadata name="Catalog.Файлы.Form.ФормаСписка.Form" id="5224848c-ce7c-47ba-9ef2-cd242898fa4b.0" configVersion="553c9d5c7adbf84e9ce80d366465372200000000"/>
-		<Metadata name="Configuration.Конфигурация" id="032c88c7-9fc1-48ee-9423-9a69189bafe8" configVersion="055e66f41f3aa147b15d6eb4fb1615b000000000"/>
+		<Metadata name="Configuration.Конфигурация" id="032c88c7-9fc1-48ee-9423-9a69189bafe8" configVersion="37094f663684d44ca7798a8e8fc0cfe100000000"/>
+		<Metadata name="Document.ПеремещениеКниги" id="5937a685-8ea2-4293-89e5-f37c4cebebaa" configVersion="b52277137b697347806ff2916827758c00000000">
+			<Metadata name="Document.ПеремещениеКниги.Attribute.НовыйРяд" id="1dfe02d3-9171-49b8-8030-cb7119a74277"/>
+			<Metadata name="Document.ПеремещениеКниги.Attribute.НовыйШкаф" id="530a6e67-b554-48c5-9222-20af89f3935a"/>
+			<Metadata name="Document.ПеремещениеКниги.Attribute.Книга" id="57afcf8e-ad73-438f-b8fa-f8db1279c670"/>
+			<Metadata name="Document.ПеремещениеКниги.Attribute.НоваяПолка" id="5a8f8eeb-b16f-4e3e-832a-25665d7148c2"/>
+		</Metadata>
+		<Metadata name="Document.ПеремещениеКниги.Form.ФормаСписка" id="437067f0-df84-44d3-93b7-f72509bd5be3" configVersion="168d724b93fb3d4096425027ec10423a00000000"/>
+		<Metadata name="Document.ПеремещениеКниги.Form.ФормаСписка.Form" id="437067f0-df84-44d3-93b7-f72509bd5be3.0" configVersion="33ce42b5b24c204c8ac57414e7ef1ada00000000"/>
+		<Metadata name="Document.ПродажаКниги" id="064276fb-3e21-46c6-87e5-87b8c69c610f" configVersion="b0092ee85476494eacae0cc7ab510ab600000000">
+			<Metadata name="Document.ПродажаКниги.Attribute.Книга" id="3a0aa3bd-7db5-49ba-8fa7-38ade6d5b08e"/>
+			<Metadata name="Document.ПродажаКниги.Attribute.ДатаПокупки" id="4435952e-d25a-4807-8ebe-664c355ebe34"/>
+			<Metadata name="Document.ПродажаКниги.Attribute.Покупатель" id="cc91213a-aeac-42cf-acb3-1c2ce45c13e4"/>
+		</Metadata>
+		<Metadata name="Document.ПродажаКниги.Form.ФормаСписка" id="313f44db-f36e-4e27-abeb-e6cbdc704da4" configVersion="d8216fbbe733b54da1b1d897f162a3db00000000"/>
+		<Metadata name="Document.ПродажаКниги.Form.ФормаСписка.Form" id="313f44db-f36e-4e27-abeb-e6cbdc704da4.0" configVersion="f64df77c189a694ea988a30d970e8bb600000000"/>
+		<Metadata name="InformationRegister.ПредыдущиеВладельцы" id="f0ea541a-2760-433a-aebe-16e28a70a9e5" configVersion="8c04ee38148da64b95d519f1d26decd400000000">
+			<Metadata name="InformationRegister.ПредыдущиеВладельцы.Dimension.Книга" id="e1329c58-a31c-4112-af29-8b5426ee765e"/>
+			<Metadata name="InformationRegister.ПредыдущиеВладельцы.Resource.Владелец" id="fe621f18-41a8-4942-9f5e-febe7ccf1a71"/>
+		</Metadata>
+		<Metadata name="InformationRegister.РасположениеКниг" id="1ca7f4c4-6df1-4a73-8d2a-31802e00c3d3" configVersion="e8890a42166fd044a65c6283e1a0228900000000">
+			<Metadata name="InformationRegister.РасположениеКниг.Attribute.Полка" id="04146a28-fcd4-4c93-bf4f-06e22a01a17b"/>
+			<Metadata name="InformationRegister.РасположениеКниг.Attribute.Ряд" id="2a324995-4db9-459f-969f-2f2d8c0cb6cb"/>
+			<Metadata name="InformationRegister.РасположениеКниг.Dimension.Книга" id="2a5e7498-a00f-4cc8-901b-3914b1b30f1e"/>
+			<Metadata name="InformationRegister.РасположениеКниг.Attribute.Шкаф" id="e99c7dce-1afa-490f-ac24-89adf9563f1e"/>
+		</Metadata>
 		<Metadata name="Language.Русский" id="01ca82ca-3460-433e-a04e-6317ce758e32" configVersion="6ca7f99d5079cd4d8c51094c579ad32300000000"/>
 		<Metadata name="Style.Стиль1" id="7c15639d-3106-448f-ae25-42c21539a341" configVersion="a735223f93439a4dadcf7e21bbce863b00000000"/>
 		<Metadata name="Style.Стиль1.Style" id="7c15639d-3106-448f-ae25-42c21539a341.0" configVersion="46ec0d9c68630e44a21e83143e3ce95000000000"/>
