@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Subsystem uuid="c5efccc8-3ef6-4440-9c54-48e85d1bda73">
+		<Properties>
+			<Name>УчётКниг</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Учёт книг</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<UseOneCommand>false</UseOneCommand>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Страны</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Книги</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СпособыПечати</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.РазмерыКниг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ЦветностиКниг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТипыБумаг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТипыКорешков</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТипыФорзацев</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТипыОбложек</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТипыТиражей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТипыИзношенностей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Жанры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Языки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Файлы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Владельцы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.БиблиотечныйОтчет</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">e2a8c432-11cd-4857-a1f1-49552fda8c10</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

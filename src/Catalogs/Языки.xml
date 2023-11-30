@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
-	<Catalog uuid="285c8ec5-bde9-40de-9688-a7e6880a690c">
+	<Catalog uuid="555d96a8-d47c-400d-8162-54636fab24ee">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.Файлы" category="Object">
-				<xr:TypeId>e37952b4-527a-451e-bffd-7c19a03ec0a5</xr:TypeId>
-				<xr:ValueId>cb969d4a-776f-49cc-bcba-92ab4502ffcc</xr:ValueId>
+			<xr:GeneratedType name="CatalogObject.Языки" category="Object">
+				<xr:TypeId>d86e672c-fa37-4f2f-8ca5-1717b4f4857d</xr:TypeId>
+				<xr:ValueId>2a4083af-e3fa-4b65-b872-8b7bb2ce7fc8</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.Файлы" category="Ref">
-				<xr:TypeId>3fba4f14-c032-4b44-ae79-0ae62e6ec44c</xr:TypeId>
-				<xr:ValueId>951dbd37-02ed-4030-be49-d3f960a14375</xr:ValueId>
+			<xr:GeneratedType name="CatalogRef.Языки" category="Ref">
+				<xr:TypeId>a3f23400-d1b4-4338-8ba2-649258adc4c4</xr:TypeId>
+				<xr:ValueId>05cf48f2-4820-40c0-a166-c1d7a64c9356</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.Файлы" category="Selection">
-				<xr:TypeId>815a9c3b-42a1-46df-9170-be138f26ca74</xr:TypeId>
-				<xr:ValueId>4d74a709-588f-42e3-811f-73d8b92deffc</xr:ValueId>
+			<xr:GeneratedType name="CatalogSelection.Языки" category="Selection">
+				<xr:TypeId>bc23b7ee-06ab-4728-9410-1d2bf6d9b4f2</xr:TypeId>
+				<xr:ValueId>ac459e03-e7ab-4682-ba91-6554a785a4fb</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.Файлы" category="List">
-				<xr:TypeId>dc3a296f-fa4d-462d-9c1b-4397e5ffb53c</xr:TypeId>
-				<xr:ValueId>bd7c27fd-4d2f-424a-b9d0-571cb44d7f52</xr:ValueId>
+			<xr:GeneratedType name="CatalogList.Языки" category="List">
+				<xr:TypeId>b68f2f43-ca98-4756-abee-ce0ab95032a9</xr:TypeId>
+				<xr:ValueId>41a47de7-ed2d-4360-9d5c-222a310c21b4</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.Файлы" category="Manager">
-				<xr:TypeId>dfab8405-9c08-4bab-a76c-df6970a1930f</xr:TypeId>
-				<xr:ValueId>b49b1599-0e83-475a-84f7-6f959921cbf5</xr:ValueId>
+			<xr:GeneratedType name="CatalogManager.Языки" category="Manager">
+				<xr:TypeId>9493e3e9-6ceb-40b5-b344-38a6de3a4d78</xr:TypeId>
+				<xr:ValueId>81c47088-4162-4d22-b501-8b54cfabf378</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Файлы</Name>
+			<Name>Языки</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Файлы</v8:content>
+					<v8:content>Языки</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -41,7 +41,7 @@
 			<Owners/>
 			<SubordinationUse>ToItems</SubordinationUse>
 			<CodeLength>9</CodeLength>
-			<DescriptionLength>100</DescriptionLength>
+			<DescriptionLength>25</DescriptionLength>
 			<CodeType>Number</CodeType>
 			<CodeAllowedLength>Variable</CodeAllowedLength>
 			<CodeSeries>WholeCatalog</CodeSeries>
@@ -290,8 +290,8 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.Файлы.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.Файлы.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.Языки.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.Языки.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
@@ -323,18 +323,22 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="0d8c50b6-a228-4741-8b6f-113a7d698bdf">
+			<Attribute uuid="881faf08-b691-457e-8f8f-a0c861a79dc1">
 				<Properties>
-					<Name>Данные</Name>
+					<Name>СокращённыйКод</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Данные</v8:content>
+							<v8:content>Сокращённый код</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>v8:ValueStorage</v8:Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>2</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -347,7 +351,7 @@
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
+					<FillValue xsi:type="xs:string"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>

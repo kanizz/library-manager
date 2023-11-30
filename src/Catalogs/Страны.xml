@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
-	<Catalog uuid="285c8ec5-bde9-40de-9688-a7e6880a690c">
+	<Catalog uuid="0c5a7d2a-556f-4ef5-ad37-4d5a353ac015">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.Файлы" category="Object">
-				<xr:TypeId>e37952b4-527a-451e-bffd-7c19a03ec0a5</xr:TypeId>
-				<xr:ValueId>cb969d4a-776f-49cc-bcba-92ab4502ffcc</xr:ValueId>
+			<xr:GeneratedType name="CatalogObject.Страны" category="Object">
+				<xr:TypeId>c6f2b823-752d-4013-a8db-c8e05380d817</xr:TypeId>
+				<xr:ValueId>9066415b-7ffb-4eb9-9377-98ec444ee928</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.Файлы" category="Ref">
-				<xr:TypeId>3fba4f14-c032-4b44-ae79-0ae62e6ec44c</xr:TypeId>
-				<xr:ValueId>951dbd37-02ed-4030-be49-d3f960a14375</xr:ValueId>
+			<xr:GeneratedType name="CatalogRef.Страны" category="Ref">
+				<xr:TypeId>613d5962-1045-4473-8cc0-2e93e27751b1</xr:TypeId>
+				<xr:ValueId>3ac5e161-9554-4bd2-8c97-046846344cca</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.Файлы" category="Selection">
-				<xr:TypeId>815a9c3b-42a1-46df-9170-be138f26ca74</xr:TypeId>
-				<xr:ValueId>4d74a709-588f-42e3-811f-73d8b92deffc</xr:ValueId>
+			<xr:GeneratedType name="CatalogSelection.Страны" category="Selection">
+				<xr:TypeId>5dde034b-5aae-4b5f-bff8-1faa49cdb49a</xr:TypeId>
+				<xr:ValueId>0f8c9016-1b03-4f78-8f75-797c94112e18</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.Файлы" category="List">
-				<xr:TypeId>dc3a296f-fa4d-462d-9c1b-4397e5ffb53c</xr:TypeId>
-				<xr:ValueId>bd7c27fd-4d2f-424a-b9d0-571cb44d7f52</xr:ValueId>
+			<xr:GeneratedType name="CatalogList.Страны" category="List">
+				<xr:TypeId>ca9af701-7d83-47ca-9861-544c1ca3f3e1</xr:TypeId>
+				<xr:ValueId>7f2b931d-0896-4b47-9471-83bad3010bf5</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.Файлы" category="Manager">
-				<xr:TypeId>dfab8405-9c08-4bab-a76c-df6970a1930f</xr:TypeId>
-				<xr:ValueId>b49b1599-0e83-475a-84f7-6f959921cbf5</xr:ValueId>
+			<xr:GeneratedType name="CatalogManager.Страны" category="Manager">
+				<xr:TypeId>a31be0ce-ddd8-489e-93e3-95d2ea885489</xr:TypeId>
+				<xr:ValueId>b0eef713-80de-4d81-8037-e54e78479099</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Файлы</Name>
+			<Name>Страны</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Файлы</v8:content>
+					<v8:content>Страны</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -40,8 +40,8 @@
 			<UseStandardCommands>true</UseStandardCommands>
 			<Owners/>
 			<SubordinationUse>ToItems</SubordinationUse>
-			<CodeLength>9</CodeLength>
-			<DescriptionLength>100</DescriptionLength>
+			<CodeLength>3</CodeLength>
+			<DescriptionLength>50</DescriptionLength>
 			<CodeType>Number</CodeType>
 			<CodeAllowedLength>Variable</CodeAllowedLength>
 			<CodeSeries>WholeCatalog</CodeSeries>
@@ -290,8 +290,8 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.Файлы.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.Файлы.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.Страны.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.Страны.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
@@ -323,18 +323,22 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="0d8c50b6-a228-4741-8b6f-113a7d698bdf">
+			<Attribute uuid="649f1177-60c5-4823-ab95-dd74f40c422b">
 				<Properties>
-					<Name>Данные</Name>
+					<Name>ПолноеНаименование</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Данные</v8:content>
+							<v8:content>Полное наименование</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>v8:ValueStorage</v8:Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -347,7 +351,95 @@
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
+					<FillValue xsi:type="xs:string"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="119f5406-6227-4f6b-9be0-43c969659a6e">
+				<Properties>
+					<Name>Альфа2</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Альфа2</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>2</v8:Length>
+							<v8:AllowedLength>Fixed</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:string">  </FillValue>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="20ef94a3-014f-4f6e-996e-9c3fc1574f4e">
+				<Properties>
+					<Name>Альфа3</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Альфа3</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>3</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:string"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
