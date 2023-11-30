@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="Идентификация" id="101">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Идентификация</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Идентификация</v8:content>
+				</v8:item>
+			</ToolTip>
+			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ThroughAlign>Use</ThroughAlign>
+			<ExtendedTooltip name="ИдентификацияРасширеннаяПодсказка" id="102"/>
+			<ChildItems>
+				<InputField name="Код" id="1">
+					<DataPath>Объект.Code</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<Width>1</Width>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Наименование" id="4">
+					<DataPath>Объект.Description</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<InputField name="Выпуск" id="10">
+					<DataPath>Объект.Выпуск</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ВыпускКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="ВыпускРасширеннаяПодсказка" id="12"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа1" id="113">
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="114"/>
+			<ChildItems>
+				<UsualGroup name="ДеталиПубликации" id="103">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Детали публикации</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Детали публикации</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Width>1</Width>
+					<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ДеталиПубликацииРасширеннаяПодсказка" id="104"/>
+					<ChildItems>
+						<InputField name="СтранаВыпуска" id="28">
+							<DataPath>Объект.СтранаВыпуска</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="СтранаВыпускаКонтекстноеМеню" id="29"/>
+							<ExtendedTooltip name="СтранаВыпускаРасширеннаяПодсказка" id="30"/>
+						</InputField>
+						<InputField name="Язык" id="70">
+							<DataPath>Объект.Язык</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ЯзыкКонтекстноеМеню" id="71"/>
+							<ExtendedTooltip name="ЯзыкРасширеннаяПодсказка" id="72"/>
+						</InputField>
+						<InputField name="Жанр" id="76">
+							<DataPath>Объект.Жанр</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ЖанрКонтекстноеМеню" id="77"/>
+							<ExtendedTooltip name="ЖанрРасширеннаяПодсказка" id="78"/>
+						</InputField>
+						<InputField name="Издание" id="7">
+							<DataPath>Объект.Издание</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ИзданиеКонтекстноеМеню" id="8"/>
+							<ExtendedTooltip name="ИзданиеРасширеннаяПодсказка" id="9"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ФизическиеХарактеристики" id="105">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Физические характеристики</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Физические характеристики</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Width>1</Width>
+					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ФизическиеХарактеристикиРасширеннаяПодсказка" id="106"/>
+					<ChildItems>
+						<InputField name="ФорматПечати" id="22">
+							<DataPath>Объект.ФорматПечати</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ФорматПечатиКонтекстноеМеню" id="23"/>
+							<ExtendedTooltip name="ФорматПечатиРасширеннаяПодсказка" id="24"/>
+						</InputField>
+						<InputField name="ТипБумаги" id="40">
+							<DataPath>Объект.ТипБумаги</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ТипБумагиКонтекстноеМеню" id="41"/>
+							<ExtendedTooltip name="ТипБумагиРасширеннаяПодсказка" id="42"/>
+						</InputField>
+						<InputField name="ТипОбложки" id="55">
+							<DataPath>Объект.ТипОбложки</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ТипОбложкиКонтекстноеМеню" id="56"/>
+							<ExtendedTooltip name="ТипОбложкиРасширеннаяПодсказка" id="57"/>
+						</InputField>
+						<InputField name="ТипКорешка" id="58">
+							<DataPath>Объект.ТипКорешка</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ТипКорешкаКонтекстноеМеню" id="59"/>
+							<ExtendedTooltip name="ТипКорешкаРасширеннаяПодсказка" id="60"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Количество" id="115">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество</v8:content>
+						</v8:item>
+					</ToolTip>
+					<HorizontalStretch>true</HorizontalStretch>
+					<VerticalStretch>true</VerticalStretch>
+					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+					<GroupVerticalAlign>Center</GroupVerticalAlign>
+					<Group>Vertical</Group>
+					<VerticalSpacing>Single</VerticalSpacing>
+					<HorizontalAlign>Left</HorizontalAlign>
+					<VerticalAlign>Center</VerticalAlign>
+					<Representation>NormalSeparation</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="КоличествоРасширеннаяПодсказка" id="116"/>
+					<ChildItems>
+						<InputField name="КоличествоСтраниц" id="31">
+							<DataPath>Объект.КоличествоСтраниц</DataPath>
+							<TitleTextColor>style:FormTextColor</TitleTextColor>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="КоличествоСтраницКонтекстноеМеню" id="32"/>
+							<ExtendedTooltip name="КоличествоСтраницРасширеннаяПодсказка" id="33"/>
+						</InputField>
+						<InputField name="КоличествоПолос" id="43">
+							<DataPath>Объект.КоличествоПолос</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="КоличествоПолосКонтекстноеМеню" id="44"/>
+							<ExtendedTooltip name="КоличествоПолосРасширеннаяПодсказка" id="45"/>
+						</InputField>
+						<InputField name="КоличествоКолонок" id="46">
+							<DataPath>Объект.КоличествоКолонок</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<Width>4</Width>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="КоличествоКолонокКонтекстноеМеню" id="47"/>
+							<ExtendedTooltip name="КоличествоКолонокРасширеннаяПодсказка" id="48"/>
+						</InputField>
+						<InputField name="ДатаВыпуска" id="13">
+							<DataPath>Объект.ДатаВыпуска</DataPath>
+							<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+							<EditMode>EnterOnInput</EditMode>
+							<Width>7</Width>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<BorderColor>style:ToolTipTextColor</BorderColor>
+							<ContextMenu name="ДатаВыпускаКонтекстноеМеню" id="14"/>
+							<ExtendedTooltip name="ДатаВыпускаРасширеннаяПодсказка" id="15"/>
+						</InputField>
+						<CheckBoxField name="НаличиеИзображений" id="52">
+							<DataPath>Объект.НаличиеИзображений</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="НаличиеИзображенийКонтекстноеМеню" id="53"/>
+							<ExtendedTooltip name="НаличиеИзображенийРасширеннаяПодсказка" id="54"/>
+						</CheckBoxField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа2" id="117">
+			<Group>AlwaysHorizontal</Group>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="118"/>
+			<ChildItems>
+				<UsualGroup name="ВизуальныеАспекты" id="109">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Визуальные аспекты</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Визуальные аспекты</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ВизуальныеАспектыРасширеннаяПодсказка" id="110"/>
+					<ChildItems>
+						<InputField name="Шрифт" id="25">
+							<DataPath>Объект.Шрифт</DataPath>
+							<TitleLocation>Top</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ШрифтКонтекстноеМеню" id="26"/>
+							<ExtendedTooltip name="ШрифтРасширеннаяПодсказка" id="27"/>
+						</InputField>
+						<InputField name="ЦветностьКниги" id="49">
+							<DataPath>Объект.ЦветностьКниги</DataPath>
+							<TitleLocation>Top</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ЦветностьКнигиКонтекстноеМеню" id="50"/>
+							<ExtendedTooltip name="ЦветностьКнигиРасширеннаяПодсказка" id="51"/>
+						</InputField>
+						<InputField name="ФорматИзмерения" id="37">
+							<DataPath>Объект.ФорматИзмерения</DataPath>
+							<TitleLocation>Top</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ФорматИзмеренияКонтекстноеМеню" id="38"/>
+							<ExtendedTooltip name="ФорматИзмеренияРасширеннаяПодсказка" id="39"/>
+						</InputField>
+						<InputField name="ТипФорзаца" id="61">
+							<DataPath>Объект.ТипФорзаца</DataPath>
+							<TitleLocation>Top</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ТипФорзацаКонтекстноеМеню" id="62"/>
+							<ExtendedTooltip name="ТипФорзацаРасширеннаяПодсказка" id="63"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ДополнительнаяИнформация" id="111">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительная информация</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительная информация</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Width>1</Width>
+					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+					<HorizontalAlign>Left</HorizontalAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ДополнительнаяИнформацияРасширеннаяПодсказка" id="112"/>
+					<ChildItems>
+						<InputField name="Дополнения" id="64">
+							<DataPath>Объект.Дополнения</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДополненияКонтекстноеМеню" id="65"/>
+							<ExtendedTooltip name="ДополненияРасширеннаяПодсказка" id="66"/>
+						</InputField>
+						<InputField name="СпособПечати" id="34">
+							<DataPath>Объект.СпособПечати</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="СпособПечатиКонтекстноеМеню" id="35"/>
+							<ExtendedTooltip name="СпособПечатиРасширеннаяПодсказка" id="36"/>
+						</InputField>
+						<InputField name="Изношенность" id="73">
+							<DataPath>Объект.Изношенность</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ИзношенностьКонтекстноеМеню" id="74"/>
+							<ExtendedTooltip name="ИзношенностьРасширеннаяПодсказка" id="75"/>
+						</InputField>
+						<InputField name="Прототип" id="19">
+							<DataPath>Объект.Прототип</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ПрототипКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="ПрототипРасширеннаяПодсказка" id="21"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ЭкономическиеААспекты" id="119">
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Экономические а аспекты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ЭкономическиеААспектыРасширеннаяПодсказка" id="120"/>
+			<ChildItems>
+				<InputField name="Ценность" id="16">
+					<DataPath>Объект.Ценность</DataPath>
+					<TitleLocation>Top</TitleLocation>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ЦенностьКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="ЦенностьРасширеннаяПодсказка" id="18"/>
+				</InputField>
+				<InputField name="Тираж" id="67">
+					<DataPath>Объект.Тираж</DataPath>
+					<TitleLocation>Top</TitleLocation>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТиражКонтекстноеМеню" id="68"/>
+					<ExtendedTooltip name="ТиражРасширеннаяПодсказка" id="69"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="Сканы" id="79">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.Сканы</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="СканыКонтекстноеМеню" id="80"/>
+			<AutoCommandBar name="СканыКоманднаяПанель" id="81"/>
+			<ExtendedTooltip name="СканыРасширеннаяПодсказка" id="82"/>
+			<SearchStringAddition name="СканыСтрокаПоиска" id="83">
+				<AdditionSource>
+					<Item>Сканы</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СканыСтрокаПоискаКонтекстноеМеню" id="84"/>
+				<ExtendedTooltip name="СканыСтрокаПоискаРасширеннаяПодсказка" id="85"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СканыСостояниеПросмотра" id="86">
+				<AdditionSource>
+					<Item>Сканы</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СканыСостояниеПросмотраКонтекстноеМеню" id="87"/>
+				<ExtendedTooltip name="СканыСостояниеПросмотраРасширеннаяПодсказка" id="88"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СканыУправлениеПоиском" id="89">
+				<AdditionSource>
+					<Item>Сканы</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СканыУправлениеПоискомКонтекстноеМеню" id="90"/>
+				<ExtendedTooltip name="СканыУправлениеПоискомРасширеннаяПодсказка" id="91"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="СканыНомерСтроки" id="92">
+					<DataPath>Объект.Сканы.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СканыНомерСтрокиКонтекстноеМеню" id="93"/>
+					<ExtendedTooltip name="СканыНомерСтрокиРасширеннаяПодсказка" id="94"/>
+				</LabelField>
+				<InputField name="СканыНазвание" id="95">
+					<DataPath>Объект.Сканы.Название</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="СканыНазваниеКонтекстноеМеню" id="96"/>
+					<ExtendedTooltip name="СканыНазваниеРасширеннаяПодсказка" id="97"/>
+				</InputField>
+				<InputField name="СканыФайл" id="98">
+					<DataPath>Объект.Сканы.Файл</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="СканыФайлКонтекстноеМеню" id="99"/>
+					<ExtendedTooltip name="СканыФайлРасширеннаяПодсказка" id="100"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Книги</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>
